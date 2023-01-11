@@ -41,10 +41,10 @@ public class Main {
         int value2 = 2_147_483_647;
         long value3 = 9_223_372_036_854_775_807L;
         System.out.println("Переполнения");
-        System.out.println(value + 1);
-        System.out.println(value1 + 1);
-        System.out.println(value2 + 1);
-        System.out.println(value3 + 1);
+        System.out.println("Переполнение byte: " + (value + 1));
+        System.out.println("Переполнение short: " + (value1 + 1));
+        System.out.println("Переполнение int: " + (value2 + 1));
+        System.out.println("Переполнение long: " + (value3 + 1));
         System.out.println("-------------");
 
         // Комбинации int и double
